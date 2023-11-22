@@ -1,6 +1,8 @@
 .App {
-  text-align: left;
+  text-align: center;
   padding-left: 20px;
+  background-color: rgb(206, 200, 225);  
+  padding: 20px;  
   
 }
 
@@ -23,11 +25,11 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(66, 36, 100);
 }
 
 .App-link {
-  color: #61dafb;
+  color: #9c61fb;
 }
 
 @keyframes App-logo-spin {
@@ -43,4 +45,13 @@
   background-color: rgb(141, 87, 198) !important;
   border-color: rgb(2, 2, 2) !important;
 }
+
+.titulo{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color:black;
+font-size: 80px;
+}
+
+
+             
 

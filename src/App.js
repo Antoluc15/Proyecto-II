@@ -5,6 +5,11 @@ import { useState } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Dropdown, DropdownItem, DropdownMenu, DropdownToggle } from 'reactstrap';
+import Historia from './Historia';
+
+
+
+
 
 
 
@@ -19,6 +24,8 @@ function App() {
   return (
     <div  className="App" >
       <br />
+     
+      <h1 className='titulo'>Monederos el Abuelo</h1>
       <Dropdown isOpen={dropdown} toggle={abrirCerrarDropdown} direction='right' size='lg'>
         <DropdownToggle caret className='botonDropdown'  >
           Menú
@@ -28,7 +35,9 @@ function App() {
           <DropdownItem header>Bienvenido</DropdownItem>
 
           <DropdownItem divider/>
-          <DropdownItem>Nosotros</DropdownItem>
+          
+            
+          <DropdownItem>Historia</DropdownItem>
           <DropdownItem>Productos</DropdownItem>
           <DropdownItem>Ofertas %</DropdownItem>
           <DropdownItem>Carrito de compras</DropdownItem>
@@ -44,6 +53,8 @@ function App() {
     </div>
   );
 }
+
+
 
 export default App;
 
